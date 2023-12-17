@@ -1,39 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   easyfind.hpp                                       :+:      :+:    :+:   */
+/*   Span.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/11 22:19:49 by kkouaz            #+#    #+#             */
-/*   Updated: 2023/12/17 04:29:08 by kkouaz           ###   ########.fr       */
+/*   Created: 2023/12/16 22:43:59 by kkouaz            #+#    #+#             */
+/*   Updated: 2023/12/17 03:32:58 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EASYFIND_HPP
-#define EASYFIND_HPP
+#include"Span.hpp"
 
-
-#include<iostream>
- 
-template<typename T>
-
-typename T :: iterator easyfind(T& myContainer, int a)
+Span :: Span()
 {
-    typename T :: iterator iter;
-    iter = std :: find(myContainer.begin(), myContainer.end(), a);
-    if(iter == myContainer.end)
-        throw(std :: runtime_error("value not found"));
-    return(iter);
+    _N = 0;
 }
 
+Span :: Span(unsigned int N)
+{
+    _N = N;
+}
 
+Span :: Span(const Span& other)
+{
+    
+}
 
-
-
-
-
-
-
-
-#endif
