@@ -6,7 +6,7 @@
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 22:15:11 by kkouaz            #+#    #+#             */
-/*   Updated: 2023/12/16 22:44:39 by kkouaz           ###   ########.fr       */
+/*   Updated: 2023/12/17 22:58:57 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,15 @@
 #define SPAN_HPP
 
 #include<iostream>
-
+#include<vector>
+#include<algorithm>
 
 
 class Span
 {
     private :
         unsigned int _N;
+        std :: vector<int> myVector;
     public :
         Span();
         Span(unsigned int N);
