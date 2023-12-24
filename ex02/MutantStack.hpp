@@ -1,36 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   easyfind.hpp                                       :+:      :+:    :+:   */
+/*   MutantStack.hpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/11 22:19:49 by kkouaz            #+#    #+#             */
-/*   Updated: 2023/12/22 21:23:08 by kkouaz           ###   ########.fr       */
+/*   Created: 2023/12/22 19:05:39 by kkouaz            #+#    #+#             */
+/*   Updated: 2023/12/22 19:06:30 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EASYFIND_HPP
-#define EASYFIND_HPP
-
-
-#include<iostream>
- 
-template<typename T>
-
-typename T :: iterator easyfind(T& myContainer, int a)
-{
-
-    typename T :: iterator iter;
-    iter = std :: find(myContainer.begin(), myContainer.end(), a);
-    if(iter == myContainer.end())
-        throw(std :: runtime_error("value not found"));
-    return(iter);
-}
-
-
-
-
+#ifndef MUTANTSTACK_HPP
+#define MUTANTSTACK_HPP
 
 
 
