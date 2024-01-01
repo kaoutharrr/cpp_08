@@ -6,7 +6,7 @@
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 22:15:11 by kkouaz            #+#    #+#             */
-/*   Updated: 2023/12/30 22:45:01 by kkouaz           ###   ########.fr       */
+/*   Updated: 2024/01/01 19:27:03 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-
+#include<limits.h>
 
 class Span
 {

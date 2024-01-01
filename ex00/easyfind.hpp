@@ -6,14 +6,14 @@
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/11 22:19:49 by kkouaz            #+#    #+#             */
-/*   Updated: 2024/01/01 17:26:20 by kkouaz           ###   ########.fr       */
+/*   Updated: 2024/01/01 19:23:24 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef EASYFIND_HPP
 #define EASYFIND_HPP
 
-
+#include<algorithm>
 #include<iostream>
 
 template<typename T>
