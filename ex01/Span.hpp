@@ -6,7 +6,7 @@
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 22:15:11 by kkouaz            #+#    #+#             */
-/*   Updated: 2023/12/17 22:58:57 by kkouaz           ###   ########.fr       */
+/*   Updated: 2023/12/30 22:45:01 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ class Span
         void addNumber(int number);
         int shortestSpan();
         int longestSpan();
+        void addRange(std :: vector<int> :: iterator begin, std :: vector<int> :: iterator end );
         ~Span(); 
 };
 

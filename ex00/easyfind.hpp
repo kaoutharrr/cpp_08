@@ -6,7 +6,7 @@
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/11 22:19:49 by kkouaz            #+#    #+#             */
-/*   Updated: 2023/12/22 21:23:08 by kkouaz           ###   ########.fr       */
+/*   Updated: 2024/01/01 17:26:20 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,11 @@
 
 
 #include<iostream>
- 
+
 template<typename T>
 
 typename T :: iterator easyfind(T& myContainer, int a)
 {
-
     typename T :: iterator iter;
     iter = std :: find(myContainer.begin(), myContainer.end(), a);
     if(iter == myContainer.end())
