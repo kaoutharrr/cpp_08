@@ -6,18 +6,16 @@
 /*   By: kkouaz <kkouaz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/21 23:46:08 by kkouaz            #+#    #+#             */
-/*   Updated: 2023/12/30 15:09:49 by kkouaz           ###   ########.fr       */
+/*   Updated: 2024/01/01 19:34:00 by kkouaz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"easyfind.hpp"
-#include<array>
 #include<vector>
 #include<list>
 
 int main() 
 {
-	std::array <int, 5> arr = {1, 2, 3, 4, 5};
 	std :: vector<char> v;
 	std :: list <int> myList;
 	
@@ -29,7 +27,6 @@ int main()
 	
  	try
 	{
-		std::cout << "array : " <<*(easyfind(arr,1)) << " is at index " << std::distance(arr.begin(), easyfind(arr , 1))<<  std::endl;
 		std::cout << "vector : " <<*(easyfind(v,'b')) << " is at index " << std::distance(v.begin(), easyfind(v, 'b'))<<  std::endl;
 		std::cout << "list : " <<*(easyfind(myList,11)) << " is at index " << std::distance(myList.begin(), easyfind(myList, 11))<<  std::endl;
 
